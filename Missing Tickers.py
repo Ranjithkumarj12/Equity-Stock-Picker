@@ -9,11 +9,11 @@ import os
 import fnmatch
 
 #Path to store extracted data
-path_a = (r'C:\Users\jrkumar\OneDrive - Indxx\Desktop\Algo Trading Engine\Ticker Data - Financials (Yahoo)\\')
-path_s1 = (r'C:\Users\jrkumar\OneDrive - Indxx\Desktop\Algo Trading Engine\Ticker Data - Summary (Yahoo)\Stats & Price data\\')
-path_s2 = (r'C:\Users\jrkumar\OneDrive - Indxx\Desktop\Algo Trading Engine\Ticker Data - Summary (Yahoo)\Sector & Industry data\\')
-path_s3 = (r'C:\Users\jrkumar\OneDrive - Indxx\Desktop\Algo Trading Engine\Ticker Data - Summary (Yahoo)\Total data\\')
-input_path = (r'C:\Users\jrkumar\OneDrive - Indxx\Desktop\Algo Trading Engine\Inputs - Generic\\')
+path_a = (r'C:\Users\jrkumar\Desktop\Algo Trading Engine\Ticker Data - Financials (Yahoo)\\')
+path_s1 = (r'C:\Users\jrkumar\Desktop\Algo Trading Engine\Ticker Data - Summary (Yahoo)\Stats & Price data\\')
+path_s2 = (r'C:\Users\jrkumar\Desktop\Algo Trading Engine\Ticker Data - Summary (Yahoo)\Sector & Industry data\\')
+path_s3 = (r'C:\Users\jrkumar\Desktop\Algo Trading Engine\Ticker Data - Summary (Yahoo)\Total data\\')
+input_path = (r'C:\Users\jrkumar\Desktop\Algo Trading Engine\Inputs - Generic\\')
 
 yf_a = []
 yf_s = []
