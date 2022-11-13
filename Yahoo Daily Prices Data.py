@@ -14,10 +14,10 @@ import fnmatch
 import time
 
 #Stored Path
-ticker_input = (r'C:\Users\jrkumar\OneDrive - Indxx\Desktop\Algo Trading Engine\Inputs - Generic\\')
+ticker_input = (r'C:\Users\jrkumar\Desktop\Algo Trading Engine\Inputs - Generic\\')
 
 #Path to store extracted data
-path_dwds = (r'C:\Users\jrkumar\OneDrive - Indxx\Desktop\Algo Trading Engine\Ticker Data - Daily Prices (Yahoo)\\')
+path_dwds = (r'C:\Users\jrkumar\Desktop\Algo Trading Engine\Ticker Data - Daily Prices (Yahoo)\\')
 
 #Input Tickers
 tickers_df = pd.read_excel(ticker_input+r'Total Ticker List - Summary.xlsx', sheet_name=0)
