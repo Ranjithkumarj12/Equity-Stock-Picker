@@ -3,7 +3,7 @@ This is an Investing tool that I built for assisting me with my Equity portoflio
 
 It analyses around 3500+ companies that are listed on NSE & BSE, and selects top performing securities on the basis of 3 parameters.
 
-The 3 parameters are - 3-yr CAGR of Z-Scores of Fundamental Ratios, Short term Stock Return (from last annual reporting rate till present date), and % Shares held by Insiders/Promoters. These 3 parameters are weighted 55%, 30%, and 15%, respectively.
+The 3 parameters are - 3-yr CAGR of Z-Scores of Fundamental Ratios (Equal-weighted), Short term Stock Return (from last annual reporting rate till present date), and % Shares held by Insiders/Promoters. These 3 parameters are weighted 55%, 30%, and 15%, respectively.
 
 Ratios Used for Parameter 1= ['Gross Profit Margin',	'Operating Profit Margin',	'Pre-tax Margin',	'Net Profit Margin','Return on Assets (Added Gr.Interest)',	'Operating Return on Assets',	'Return on Total Capital',	'Return on Equity', 'Inventory Turnover',	'Days of Inventory on hand', 'Total Asset Turnover',	'Fixed Asset Turnover',	'Working Capital Turnover',	'Current Ratio', 'Cash Ratio',	'Debt-to-Equity',	'Debt-to-Capital Ratio',	'Debt-to-Assets',	'Financial Leverage',	'Interest Coverage (Income)',	'CFO-to-Net Revenue',	'CFO-to-Assets',	'CFO-to-Equity',	'CFO-to-Op.Income',	'CFO-to-Debt',	'Interest Coverage (CFO)', 'Earnings to Price','Sales to Price',	'CFO to Price',	'BV to Price',	'FCFF to Price']
 
