@@ -8,17 +8,17 @@ Created on Fri Nov 11 13:15:05 2022
 import pandas as pd
 
 # Stored Path
-input_path1 = (r'C:\Users\jrkumar\OneDrive - Indxx\Desktop\Algo Trading Engine\Ticker Data - Financials (Yahoo)\\')
-input_path_s1 = (r'C:\Users\jrkumar\OneDrive - Indxx\Desktop\Algo Trading Engine\Ticker Data - Summary (Yahoo)\Stats & Price data\\')
-input_path_s2 = (r'C:\Users\jrkumar\OneDrive - Indxx\Desktop\Algo Trading Engine\Ticker Data - Summary (Yahoo)\Sector & Industry data\\')
-input_path_s3 = (r'C:\Users\jrkumar\OneDrive - Indxx\Desktop\Algo Trading Engine\Ticker Data - Summary (Yahoo)\Total data\\')
-output_path1 = (r'C:\Users\jrkumar\OneDrive - Indxx\Desktop\Algo Trading Engine\Ticker Data - Analysis Part 1 (Yahoo)\\')
-output_path2 = (r'C:\Users\jrkumar\OneDrive - Indxx\Desktop\Algo Trading Engine\Ticker Data - Analysis Part 2 (Yahoo)\\')
-output_path3 = (r'C:\Users\jrkumar\OneDrive - Indxx\Desktop\Algo Trading Engine\Ticker Data - Analysis Part 3 (Yahoo)\\')
-output_path4 = (r'C:\Users\jrkumar\OneDrive - Indxx\Desktop\Algo Trading Engine\Ticker Data - Analysis Part 4 (Yahoo)\\')
-output_path5 = (r'C:\Users\jrkumar\OneDrive - Indxx\Desktop\Algo Trading Engine\Ticker Data - Analysis Part 5 (Yahoo)\\')
-price_path = (r'C:\Users\jrkumar\OneDrive - Indxx\Desktop\Algo Trading Engine\Ticker Data - Daily Prices (Yahoo)\\')
-ind_stats_output = (r'C:\Users\jrkumar\OneDrive - Indxx\Desktop\Algo Trading Engine\Industry Stats\\')
+input_path1 = (r'C:\Users\jrkumar\Desktop\Algo Trading Engine\Ticker Data - Financials (Yahoo)\\')
+input_path_s1 = (r'C:\Users\jrkumar\Desktop\Algo Trading Engine\Ticker Data - Summary (Yahoo)\Stats & Price data\\')
+input_path_s2 = (r'C:\Users\jrkumar\Desktop\Algo Trading Engine\Ticker Data - Summary (Yahoo)\Sector & Industry data\\')
+input_path_s3 = (r'C:\Users\jrkumar\Desktop\Algo Trading Engine\Ticker Data - Summary (Yahoo)\Total data\\')
+output_path1 = (r'C:\Users\jrkumar\Desktop\Algo Trading Engine\Ticker Data - Analysis Part 1 (Yahoo)\\')
+output_path2 = (r'C:\Users\jrkumar\Desktop\Algo Trading Engine\Ticker Data - Analysis Part 2 (Yahoo)\\')
+output_path3 = (r'C:\Users\jrkumar\Desktop\Algo Trading Engine\Ticker Data - Analysis Part 3 (Yahoo)\\')
+output_path4 = (r'C:\Users\jrkumar\Desktop\Algo Trading Engine\Ticker Data - Analysis Part 4 (Yahoo)\\')
+output_path5 = (r'C:\Users\jrkumar\Desktop\Algo Trading Engine\Ticker Data - Analysis Part 5 (Yahoo)\\')
+price_path = (r'C:\Users\jrkumar\Desktop\Algo Trading Engine\Ticker Data - Daily Prices (Yahoo)\\')
+ind_stats_output = (r'C:\Users\jrkumar\Desktop\Algo Trading Engine\Industry Stats\\')
 
 # Reading final list of tickers that qualified for further processing
 zscore_ticker_df = pd.read_excel(output_path3+r'All Ticker Z-Score CAGR and Ranking.xlsx', sheet_name=0)
