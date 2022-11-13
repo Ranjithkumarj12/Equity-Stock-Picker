@@ -14,7 +14,7 @@ import fnmatch
 import os
 import numpy as np
 
-input_path_a = (r'C:\Users\jrkumar\OneDrive - Indxx\Desktop\Algo Trading Engine\Inputs - Generic\\')
+input_path_a = (r'C:\Users\jrkumar\Desktop\Algo Trading Engine\Inputs - Generic\\')
 
 ticker_list1 = pd.read_excel(input_path_a+r'Total Ticker List - Annual.xlsx', sheet_name=0)
 ticker_list1.dropna(axis = 0,inplace = True)
@@ -43,7 +43,7 @@ rest = 20
 combined_dict1 = {}
 
 #Path to store extracted data
-output_path_a = (r'C:\Users\jrkumar\OneDrive - Indxx\Desktop\Algo Trading Engine\Ticker Data - Financials (Yahoo)\\')
+output_path_a = (r'C:\Users\jrkumar\Desktop\Algo Trading Engine\Ticker Data - Financials (Yahoo)\\')
 ticker_count = len(tickers_yahoo_a1)
 count = 1
 # Part - 1:
