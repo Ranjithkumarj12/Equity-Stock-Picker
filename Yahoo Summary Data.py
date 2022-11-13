@@ -14,7 +14,7 @@ import os
 import numpy as np
 #import re
 
-input_path_s = (r'C:\Users\jrkumar\OneDrive - Indxx\Desktop\Algo Trading Engine\Inputs - Generic\\')
+input_path_s = (r'C:\Users\jrkumar\Desktop\Algo Trading Engine\Inputs - Generic\\')
 
 ticker_list1 = pd.read_excel(input_path_s+r'Total Ticker List - Summary.xlsx', sheet_name=0)
 ticker_list1.dropna(axis = 0,inplace = True)
@@ -34,9 +34,9 @@ tickers_noprofile1 = []
 combined_dict2 = {}
 
 #Path to store extracted data
-output_path_s1 = (r'C:\Users\jrkumar\OneDrive - Indxx\Desktop\Algo Trading Engine\Ticker Data - Summary (Yahoo)\Stats & Price data\\')
-output_path_s2 = (r'C:\Users\jrkumar\OneDrive - Indxx\Desktop\Algo Trading Engine\Ticker Data - Summary (Yahoo)\Sector & Industry data\\')
-output_path_s3 = (r'C:\Users\jrkumar\OneDrive - Indxx\Desktop\Algo Trading Engine\Ticker Data - Summary (Yahoo)\Total data\\')
+output_path_s1 = (r'C:\Users\jrkumar\Desktop\Algo Trading Engine\Ticker Data - Summary (Yahoo)\Stats & Price data\\')
+output_path_s2 = (r'C:\Users\jrkumar\Desktop\Algo Trading Engine\Ticker Data - Summary (Yahoo)\Sector & Industry data\\')
+output_path_s3 = (r'C:\Users\jrkumar\Desktop\Algo Trading Engine\Ticker Data - Summary (Yahoo)\Total data\\')
 
 # Part 1 - Web Scrapping Process - Using Selenium to interact, and Beautiful Soup to parse
 for t in tickers_yahoo_s1:
